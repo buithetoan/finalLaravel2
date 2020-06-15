@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'home');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
-
+// Route::match(['get','post'],'/home','HomeController@index');
 
