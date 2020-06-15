@@ -7,29 +7,23 @@
                         <div id="offer-box" class="carouselTicker">
                             <ul class="offer-box">
                                 <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now Man
+                                    <i class="fab fa-opencart"></i>  Sales Off 10%! Laptop Dell
                                 </li>
                                 <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Fashion
+                                    <i class="fab fa-opencart"></i> Sales 50% - 80% Combo keyboard
                                 </li>
                                 <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
+                                    <i class="fab fa-opencart"></i> 20% off Mouse
                                 </li>
                                 <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
+                                    <i class="fab fa-opencart"></i> Off 50%!  buy Laptop Acer
                                 </li>
                                 <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now Man
+                                    <i class="fab fa-opencart"></i> Off 10%! buy Laptop Macbook
                                 </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Fashion
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
+                                
+                                
+                                
                             </ul>
                         </div>
                     </div>
@@ -37,9 +31,9 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="custom-select-box">
                         <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-                        <option>đ VND</option>
-                        <option>$ USD</option>
-                        <option>€ EUR</option>
+                        <option>Language</option>
+                        <option>EN</option>
+                        <option>VN</option>
                     </select>
                     </div>
                     <div class="right-phone-box">
@@ -57,7 +51,6 @@
         </div>
     </div>
     <!-- End Main Top -->
-
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
@@ -71,7 +64,6 @@
                     <a class="navbar-brand" href="index.html"><img src="{{asset('front_assets/images/logo_1.png')}}" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
-
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
@@ -148,7 +140,6 @@
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
-
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>

@@ -1,9 +1,6 @@
 @extends('WAEshop.Layout_Client.Layout_Include.master')
 @section('content')
 <body>
-
-    
-
     <!-- Start Slider -->
     <div id="slides-shop" class="cover-slides">
         <ul class="slides-container">
