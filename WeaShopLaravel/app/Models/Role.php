@@ -8,5 +8,9 @@ class Role extends Model
 {
     protected $table = "roles";
     protected $guarded = ['id'];
-    protected $timestrap = true;    
+    protected $timestrap = true;   
+    public function permissions()
+	{
+	    return $this->belongstoMany('App\Models\Permission', 'permission_roles');
+	} 
 }

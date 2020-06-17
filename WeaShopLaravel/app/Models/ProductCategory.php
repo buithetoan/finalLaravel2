@@ -8,5 +8,10 @@ class ProductCategory extends Model
 {
     protected $table = "product_categories";
     protected $guarded = ['id'];
-    protected $timestrap = true;    
+    protected $timestrap = true; 
+    // 1 product category - has many products   
+    public function products()
+    {
+    	return $this->hasMany('App\Models\Product');
+    } 
 }
