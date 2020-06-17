@@ -67,10 +67,10 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="{{ url('/home') }}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/home') }}">About Us</a></li>
                         <li class="dropdown megamenu-fw">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Product</a>
+                            <a href="{{ url('/AllProductPage') }}" class="nav-link dropdown-toggle" data-toggle="dropdown">Product</a>
                             <ul class="dropdown-menu megamenu-content" role="menu">
                                 <li>
                                     <div class="row">
@@ -78,10 +78,10 @@
                                             <h6 class="title">Top</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Jackets</a></li>
-                                                    <li><a href="shop.html">Shirts</a></li>
-                                                    <li><a href="shop.html">Sweaters & Cardigans</a></li>
-                                                    <li><a href="shop.html">T-shirts</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Jackets</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Shirts</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Sweaters & Cardigans</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">T-shirts</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -90,10 +90,10 @@
                                             <h6 class="title">Bottom</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Swimwear</a></li>
-                                                    <li><a href="shop.html">Skirts</a></li>
-                                                    <li><a href="shop.html">Jeans</a></li>
-                                                    <li><a href="shop.html">Trousers</a></li>
+                                                    <li><a href="">Swimwear</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Skirts</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Jeans</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Trousers</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -102,10 +102,10 @@
                                             <h6 class="title">Clothing</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Top Wear</a></li>
-                                                    <li><a href="shop.html">Party wear</a></li>
-                                                    <li><a href="shop.html">Bottom Wear</a></li>
-                                                    <li><a href="shop.html">Indian Wear</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Top Wear</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Party wear</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Bottom Wear</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Indian Wear</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -113,10 +113,10 @@
                                             <h6 class="title">Accessories</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Bags</a></li>
-                                                    <li><a href="shop.html">Sunglasses</a></li>
-                                                    <li><a href="shop.html">Fragrances</a></li>
-                                                    <li><a href="shop.html">Wallets</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Bags</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Sunglasses</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Fragrances</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Wallets</a></li>
                                                 </ul>
                                             </div>
                                         </div>

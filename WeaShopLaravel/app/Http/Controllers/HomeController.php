@@ -24,4 +24,7 @@ class HomeController extends Controller
 	public function index(){
     	return view('WAEshop.Layout_Client.index');
     }
+    public function AllProductPage(){
+        return view('WAEshop.Layout_Client.AllProductPage');
+    }
 }
