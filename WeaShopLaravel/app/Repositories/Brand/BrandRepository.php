@@ -21,6 +21,6 @@ class BrandRepository extends EloquentRepository implements BrandInterface
     public function getBrand()
     {
         return $this->_model::take(5)->get();
-    };
+    }
     
 }

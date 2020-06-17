@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use App\Repositories\Brand;
+
 class AppServiceProvider extends ServiceProvider
 {
     /**
