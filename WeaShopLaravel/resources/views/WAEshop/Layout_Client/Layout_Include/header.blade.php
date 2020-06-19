@@ -7,29 +7,6 @@
                         <div id="offer-box" class="carouselTicker">
                             <ul class="offer-box">
                                 <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now Man
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Fashion
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now Man
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on Fashion
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
                                     <i class="fab fa-opencart"></i>  Sales Off 10%! Laptop Dell
                                 </li>
                                 <li>
@@ -44,6 +21,9 @@
                                 <li>
                                     <i class="fab fa-opencart"></i> Off 10%! buy Laptop Macbook
                                 </li>
+                                
+                                
+                                
                             </ul>
                         </div>
                     </div>
@@ -51,9 +31,6 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="custom-select-box">
                         <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-                        <option>đ VND</option>
-                        <option>$ USD</option>
-                        <option>€ EUR</option>
                         <option>Language</option>
                         <option>EN</option>
                         <option>VN</option>
@@ -90,13 +67,6 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="dropdown megamenu-fw">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Product</a>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item active"><a class="nav-link" href="{{ url('/home') }}">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/home') }}">About Us</a></li>
                         <li class="dropdown megamenu-fw">
@@ -108,10 +78,6 @@
                                             <h6 class="title">Top</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Jackets</a></li>
-                                                    <li><a href="shop.html">Shirts</a></li>
-                                                    <li><a href="shop.html">Sweaters & Cardigans</a></li>
-                                                    <li><a href="shop.html">T-shirts</a></li>
                                                     <li><a href="{{ url('/AllProductPage') }}">Jackets</a></li>
                                                     <li><a href="{{ url('/AllProductPage') }}">Shirts</a></li>
                                                     <li><a href="{{ url('/AllProductPage') }}">Sweaters & Cardigans</a></li>
@@ -124,10 +90,6 @@
                                             <h6 class="title">Bottom</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Swimwear</a></li>
-                                                    <li><a href="shop.html">Skirts</a></li>
-                                                    <li><a href="shop.html">Jeans</a></li>
-                                                    <li><a href="shop.html">Trousers</a></li>
                                                     <li><a href="">Swimwear</a></li>
                                                     <li><a href="{{ url('/AllProductPage') }}">Skirts</a></li>
                                                     <li><a href="{{ url('/AllProductPage') }}">Jeans</a></li>
@@ -140,10 +102,6 @@
                                             <h6 class="title">Clothing</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Top Wear</a></li>
-                                                    <li><a href="shop.html">Party wear</a></li>
-                                                    <li><a href="shop.html">Bottom Wear</a></li>
-                                                    <li><a href="shop.html">Indian Wear</a></li>
                                                     <li><a href="{{ url('/AllProductPage') }}">Top Wear</a></li>
                                                     <li><a href="{{ url('/AllProductPage') }}">Party wear</a></li>
                                                     <li><a href="{{ url('/AllProductPage') }}">Bottom Wear</a></li>
@@ -155,10 +113,6 @@
                                             <h6 class="title">Accessories</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Bags</a></li>
-                                                    <li><a href="shop.html">Sunglasses</a></li>
-                                                    <li><a href="shop.html">Fragrances</a></li>
-                                                    <li><a href="shop.html">Wallets</a></li>
                                                     <li><a href="{{ url('/AllProductPage') }}">Bags</a></li>
                                                     <li><a href="{{ url('/AllProductPage') }}">Sunglasses</a></li>
                                                     <li><a href="{{ url('/AllProductPage') }}">Fragrances</a></li>

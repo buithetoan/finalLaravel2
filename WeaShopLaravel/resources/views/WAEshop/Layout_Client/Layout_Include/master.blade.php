@@ -43,9 +43,6 @@
     @yield('content')
     @include('WAEshop.Layout_Client.Layout_Include.footer')
 
-    @include('WAEshop.Layout_Client.Layout_Include.header')
-    @yield('content')
-    @include('WAEshop.Layout_Client.Layout_Include.footer')
     <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
     <!-- ALL JS FILES -->
     <script src="{{asset('front_assets/js/jquery-3.2.1.min.js')}}"></script>
