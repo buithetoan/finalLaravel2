@@ -11,7 +11,7 @@ class BrandController extends Controller
 
     public function __construct(BrandInterface $brandRepository)
     {
-        $this->postRepository = $postRepository;
+        $this->brandRepository = $brandRepository;
     }
     /**
      * Display a listing of the resource.
