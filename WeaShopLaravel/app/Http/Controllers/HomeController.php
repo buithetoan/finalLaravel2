@@ -21,7 +21,10 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index(){
-        return view('WAEshop.Layout_Client.index');
+	public function index(){
+    	return view('WAEshop.Layout_Client.index');
+    }
+    public function AllProductPage(){
+        return view('WAEshop.Layout_Client.AllProductPage');
     }
 }
