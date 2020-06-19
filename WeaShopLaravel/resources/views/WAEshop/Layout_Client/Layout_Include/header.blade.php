@@ -30,6 +30,20 @@
                                 <li>
                                     <i class="fab fa-opencart"></i> Off 50%! Shop Now
                                 </li>
+                                    <i class="fab fa-opencart"></i>  Sales Off 10%! Laptop Dell
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Sales 50% - 80% Combo keyboard
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> 20% off Mouse
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Off 50%!  buy Laptop Acer
+                                </li>
+                                <li>
+                                    <i class="fab fa-opencart"></i> Off 10%! buy Laptop Macbook
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -40,6 +54,9 @@
                         <option>đ VND</option>
                         <option>$ USD</option>
                         <option>€ EUR</option>
+                        <option>Language</option>
+                        <option>EN</option>
+                        <option>VN</option>
                     </select>
                     </div>
                     <div class="right-phone-box">
@@ -57,7 +74,6 @@
         </div>
     </div>
     <!-- End Main Top -->
-
     <!-- Start Main Top -->
     <header class="main-header">
         <!-- Start Navigation -->
@@ -71,7 +87,6 @@
                     <a class="navbar-brand" href="index.html"><img src="{{asset('front_assets/images/logo_1.png')}}" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
-
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
@@ -79,6 +94,13 @@
                         <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                         <li class="dropdown megamenu-fw">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Product</a>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="nav-item active"><a class="nav-link" href="{{ url('/home') }}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/home') }}">About Us</a></li>
+                        <li class="dropdown megamenu-fw">
+                            <a href="{{ url('/AllProductPage') }}" class="nav-link dropdown-toggle" data-toggle="dropdown">Product</a>
                             <ul class="dropdown-menu megamenu-content" role="menu">
                                 <li>
                                     <div class="row">
@@ -90,6 +112,10 @@
                                                     <li><a href="shop.html">Shirts</a></li>
                                                     <li><a href="shop.html">Sweaters & Cardigans</a></li>
                                                     <li><a href="shop.html">T-shirts</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Jackets</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Shirts</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Sweaters & Cardigans</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">T-shirts</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -102,6 +128,10 @@
                                                     <li><a href="shop.html">Skirts</a></li>
                                                     <li><a href="shop.html">Jeans</a></li>
                                                     <li><a href="shop.html">Trousers</a></li>
+                                                    <li><a href="">Swimwear</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Skirts</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Jeans</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Trousers</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -114,6 +144,10 @@
                                                     <li><a href="shop.html">Party wear</a></li>
                                                     <li><a href="shop.html">Bottom Wear</a></li>
                                                     <li><a href="shop.html">Indian Wear</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Top Wear</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Party wear</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Bottom Wear</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Indian Wear</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -125,6 +159,10 @@
                                                     <li><a href="shop.html">Sunglasses</a></li>
                                                     <li><a href="shop.html">Fragrances</a></li>
                                                     <li><a href="shop.html">Wallets</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Bags</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Sunglasses</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Fragrances</a></li>
+                                                    <li><a href="{{ url('/AllProductPage') }}">Wallets</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -148,7 +186,6 @@
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
-
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>

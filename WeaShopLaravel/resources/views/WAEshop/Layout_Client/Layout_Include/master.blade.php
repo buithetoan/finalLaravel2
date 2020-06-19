@@ -8,7 +8,11 @@
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Site Metas -->
     <title>WAEshop -Team</title>
     <meta name="keywords" content="">
@@ -19,6 +23,9 @@
     <link rel="shortcut icon" href="{{asset('front_assets/css/images/favicon.ico')}}" type="image/x-icon">
     <link rel="apple-touch-icon" href="{{asset('front_assets/css/images/apple-touch-icon.png')}}">
 
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="{{asset('front_assets/css/images/favicon.ico')}}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{asset('front_assets/css/images/apple-touch-icon.png')}}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('front_assets/css/nice-select.css')}}">
     <link rel="stylesheet" href="{{asset('front_assets/css/bootstrap.min.css')}}">
@@ -32,12 +39,13 @@
 </head>
 
 <body>
-
-    
     @include('WAEshop.Layout_Client.Layout_Include.header')
     @yield('content')
     @include('WAEshop.Layout_Client.Layout_Include.footer')
 
+    @include('WAEshop.Layout_Client.Layout_Include.header')
+    @yield('content')
+    @include('WAEshop.Layout_Client.Layout_Include.footer')
     <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
     <!-- ALL JS FILES -->
     <script src="{{asset('front_assets/js/jquery-3.2.1.min.js')}}"></script>
@@ -58,4 +66,5 @@
 
 </body>
 
+</body>
 </html>
