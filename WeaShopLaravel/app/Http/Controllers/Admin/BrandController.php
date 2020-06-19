@@ -4,7 +4,8 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Repositories\Brand\BandRepository;
+use App\Repositories\Brand\BrandRepository;
+use App\Repositories\Brand\BrandInterface;
 class BrandController extends Controller
 {
     protected $brandRepository;
