@@ -22,6 +22,6 @@ Route::get('/AllProductPage', 'HomeController@AllProductPage')->name('AllProduct
 
 Route::resource('admin/brand', 'Admin\BrandController');
 // Route toi form admin login tam thoi -- sau nay chu y fix
-Route::get('/adminlogin', function(){
+Route::view('/adminlogin', function(){
 	return view('admin.auth.login');
 });
