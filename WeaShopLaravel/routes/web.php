@@ -20,3 +20,8 @@ Route::get('/AllProductPage', 'HomeController@AllProductPage')->name('AllProduct
 
 // Route::match(['get','post'],'/home','HomeController@index');
 
+Route::resource('admin/brand', 'Admin\BrandController');
+// Route toi form admin login tam thoi -- sau nay chu y fix
+Route::get('/adminlogin', function(){
+	return view('admin.auth.login');
+});
