@@ -4,14 +4,14 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Repositories\Brand\BandRepository;
+use App\Repositories\Brand\BrandInterface;
 class BrandController extends Controller
 {
     protected $brandRepository;
 
-    public function __construct(BrandInterface $brandRepository)
+    public function __construct(BrandInterface $brandRepos)
     {
-        $this->brandRepository = $brandRepository;
+        $this->brandRepository = $brandRepos;
     }
     /**
      * Display a listing of the resource.
@@ -62,7 +62,7 @@ class BrandController extends Controller
     {
         $brand = $this->brandRepository->find($id);
 
-        return view('admin.brands.show', compact('brand'));
+        return view('admin.brands.detail', compact('brand'));
     }
 
     /**
@@ -75,7 +75,7 @@ class BrandController extends Controller
     {
         $brand = $this->brandRepository->find($id);
 
-        return view('admin.brands.show', compact('brand'));
+        return view('admin.brands.edit', compact('brand'));
     }
 
     /**

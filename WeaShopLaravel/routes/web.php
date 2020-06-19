@@ -17,4 +17,8 @@ Route::view('/', 'home');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
-
+Route::resource('admin/brand', 'Admin\BrandController');
+// Route toi form admin login tam thoi -- sau nay chu y fix
+Route::get('/adminlogin', function(){
+	return view('admin.auth.login');
+});
